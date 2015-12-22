@@ -1,6 +1,6 @@
 # Nextzy : We Are Hiring !
 
-A simple way to interact with Facebook's Graph API using Backbone.js objects.
+Nextzy -- Next To The Galaxy
 
 ## Company Culture
 * Work as a team and treat everyone like bothers and sisters
@@ -89,6 +89,7 @@ geek@nextzy.com
 
 ### More Detail 
 [Nextzy pirate](http://www.nextzy.me/nextzy)
+
 [Nextzy Playground](https://www.fb.com/nextzy)
 
 
