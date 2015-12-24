@@ -4,7 +4,7 @@
 Nextzy -- Next To The Galaxy
 
 ## Company Culture
-* Work as a team and treat everyone like bothers and sisters
+* Work as a team and treat everyone like brothers and sisters
 
 * Always catch up on new technologies, both software and hardware.
 
