@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:id="@+id/mtl_menu_level_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:mrl_rippleAlpha="0.05"
+        app:mrl_rippleColor="@color/alpha_transparent"
+        app:mrl_rippleDelayClick="true"
+        app:mrl_rippleDimension="@dimen/default_ripple_size"
+        app:mrl_rippleOverlay="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/default_margin_padding_small"
+            android:paddingLeft="@dimen/default_margin_padding_small"
+            android:paddingRight="@dimen/default_margin_padding_small"
+            android:paddingTop="@dimen/default_margin_padding">
+
+            <ImageView
+                android:id="@+id/iv_menu_level_one"
+                android:layout_width="@dimen/menu_level_one_image_size"
+                android:layout_height="@dimen/menu_level_one_image_size"
+                android:scaleType="fitCenter"
+                android:src="@drawable/aisapp_menu_lv1_support" />
+
+            <com.nextzy.lib.allforone.widget.AISTextView
+                android:id="@+id/tv_menu_level_one"
+                style="@style/AISTextView.Brown.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin_padding_extra_small"
+                android:text="@string/sample" />
+
+        </LinearLayout>
+    </com.balysv.materialripple.MaterialRippleLayout>
+</LinearLayout>

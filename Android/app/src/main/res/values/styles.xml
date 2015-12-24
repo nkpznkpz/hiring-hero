@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/AISDefaultTheme">
+        <item name="android:dropDownListViewStyle">@style/AISSpinner.DropDownStyle</item>
+    </style>
+
+    <style name="AISSpinner.DropDownStyle" parent="Widget.AppCompat.Light.ListView.DropDown">
+        <item name="android:divider">@color/divider_gray</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+
+
+</resources>

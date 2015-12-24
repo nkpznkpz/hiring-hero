@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/aisapp_view_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="@dimen/default_margin_padding_large">
+
+                <com.nextzy.lib.allforone.widget.AISTextView
+                    style="@style/AISTextView.Brown"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/aisapp_setting_choose_language" />
+
+                <LinearLayout
+                    android:id="@+id/layout_setting_language_toggle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <com.nextzy.lib.allforone.widget.AISTextView
+                        android:id="@+id/tv_setting_language_th"
+                        style="@style/AISTextView.Brown.Small"
+                        android:layout_width="@dimen/setting_button_language_width"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/selector_button_setting_language_left"
+                        android:gravity="center"
+                        android:padding="@dimen/default_margin_padding"
+                        android:text="@string/aisapp_setting_language_th"
+                        android:textStyle="bold" />
+
+                    <com.nextzy.lib.allforone.widget.AISTextView
+                        android:id="@+id/tv_setting_language_en"
+                        style="@style/AISTextView.Brown.Small"
+                        android:layout_width="@dimen/setting_button_language_width"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/selector_button_setting_language_right"
+                        android:gravity="center"
+                        android:padding="@dimen/default_margin_padding"
+                        android:text="@string/aisapp_setting_language_en"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/default_divider_size"
+                android:background="@color/divider_gray">
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:padding="@dimen/default_margin_padding_large">
+
+                <com.nextzy.lib.allforone.widget.AISTextView
+                    style="@style/AISTextView.Default"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aisapp_menu_about"
+                    android:textSize="@dimen/default_text_size"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/image_title"
+                    android:layout_width="@dimen/setting_about_icon_size"
+                    android:layout_height="@dimen/setting_about_icon_size"
+                    android:layout_marginBottom="@dimen/default_margin_padding"
+                    android:layout_marginTop="@dimen/default_margin_padding_large"
+                    android:contentDescription="@null"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/aisapp_ic_about_app" />
+
+                <com.nextzy.lib.allforone.widget.AISTextView
+                    android:id="@+id/aisapp_tv_app_version"
+                    style="@style/AISTextView.Default"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/default_margin_padding_large"
+                    android:layout_marginTop="@dimen/default_margin_padding"
+                    android:text="@string/aisapp_setting_app_version"
+                    android:textSize="@dimen/default_text_size_large" />
+
+                <com.nextzy.lib.allforone.widget.AISTextView
+                    style="@style/AISTextView.Default"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/default_margin_padding_large"
+                    android:gravity="center_horizontal"
+                    android:paddingLeft="@dimen/default_margin_padding"
+                    android:paddingRight="@dimen/default_margin_padding"
+                    android:text="@string/aisapp_setting_about_description"
+                    android:textSize="@dimen/default_text_size" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/aisapp_layout_term_condition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/light_gray"
+        android:gravity="center_vertical"
+        android:padding="@dimen/default_margin_padding">
+
+        <ImageView
+            android:layout_width="@dimen/setting_term_condition_icon_size"
+            android:layout_height="@dimen/setting_term_condition_icon_size"
+            android:layout_marginEnd="@dimen/default_margin_padding_small"
+            android:layout_marginRight="@dimen/default_margin_padding_small"
+            android:contentDescription="@null"
+            android:src="@mipmap/aisapp_ic_term_condition_info" />
+
+        <com.nextzy.lib.allforone.widget.AISTextView
+            style="@style/AISTextView.Brown"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/aisapp_setting_term_condition"
+            android:textSize="@dimen/default_text_size" />
+
+    </LinearLayout>
+</LinearLayout>

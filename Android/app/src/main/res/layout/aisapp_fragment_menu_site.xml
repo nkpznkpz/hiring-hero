@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <WebView
+        android:id="@+id/aisapp_wv_ais_site"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+        android:id="@+id/aisapp_pb_ais_site"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        app:rcProgressColor="@color/green"
+        app:rcBackgroundColor="@android:color/transparent" />
+</FrameLayout>

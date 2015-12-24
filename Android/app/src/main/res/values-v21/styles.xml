@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="windowActionBar">false</item>
+
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="colorPrimaryDark">@color/ais_dark_green_bar</item>
+
+        <item name="android:navigationBarColor">@color/ais_dark_green_bar</item>
+
+    </style>
+
+</resources>
+

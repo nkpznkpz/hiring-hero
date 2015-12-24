@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners
+        android:bottomRightRadius="@dimen/setting_button_language_corner_radius"
+        android:topRightRadius="@dimen/setting_button_language_corner_radius" />
+
+    <stroke
+        android:width="@dimen/setting_button_language_border_width"
+        android:color="@color/ais_green" />
+
+    <solid android:color="@color/ais_green" />
+
+</shape>

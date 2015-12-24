@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.inthecheesefactory.thecheeselibrary.widget.AdjustableImageView
+        android:id="@+id/iv_splash_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/aisapp_splash_screen_bottom" />
+
+    <com.nextzy.lib.allforone.widget.AISTextView
+        android:id="@+id/tv_app_version"
+        style="@style/AISTextView.Brown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/iv_splash_bottom"
+        android:layout_marginEnd="@dimen/default_margin_padding_extra_large"
+        android:layout_marginRight="@dimen/default_margin_padding_extra_large"
+        android:text="@string/aisapp_app_version"
+        android:textStyle="bold" />
+
+    <com.inthecheesefactory.thecheeselibrary.widget.AdjustableImageView
+        android:layout_width="@dimen/splash_logo_width"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/aisapp_splash_screen_logo" />
+
+</RelativeLayout>

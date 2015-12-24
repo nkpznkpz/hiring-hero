@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andexert.expandablelayout.library.ExpandableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/expandable_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:el_contentLayout="@layout/aisapp_view_menu_level_three_content"
+    app:el_duration="200"
+    app:el_headerLayout="@layout/aisapp_view_menu_level_three_header" />

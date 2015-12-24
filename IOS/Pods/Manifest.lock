@@ -65,4 +65,4 @@ SPEC CHECKSUMS:
   TOWebViewController: accd62ec0acc8d5c2e1e195c6f7ff7654c3c840c
   WYPopoverController: dda54780e1bef186464ae5a10ab9b4998c279e89
 
-COCOAPODS: 0.38.2
+COCOAPODS: 0.39.0

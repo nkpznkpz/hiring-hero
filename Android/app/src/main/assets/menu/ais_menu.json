@@ -1,0 +1,642 @@
+{
+  "menu": [
+    {
+      "level": 1,
+      "id": "0000",
+      "nameEn": "Home",
+      "nameTh": "หน้าหลัก",
+      "image": "aisapp_ic_menu_lv1_home",
+      "business_type": [
+        "ALL"
+      ],
+      "menu": [
+        {
+          "level": 2,
+          "id": "0100",
+          "name": "Sample Code",
+          "image": "aisapp_ic_menu_lv2_other3",
+          "business_type": [
+            "EMPTY"
+          ],
+          "menu": [
+            {
+              "level": 4,
+              "id": "11000001",
+              "name": "Log in Sample",
+              "image": "aisapp_menu_lv3_01",
+              "business_type": [
+                "ALL"
+              ],
+              "activity": "com.nextzy.allforone.sample.sampleapp.LoginSampleActivity",
+              "target_page": "login_sample"
+            },
+            {
+              "level": 4,
+              "id": "11000002",
+              "name": "Localize Sample",
+              "image": "aisapp_menu_lv3_02",
+              "business_type": [
+                "ALL"
+              ],
+              "activity": "com.nextzy.allforone.sample.sampleapp.LocalizationSampleActivity",
+              "target_page": "localize_sample"
+            },
+            {
+              "level": 4,
+              "id": "11000003",
+              "name": "Dialog Sample",
+              "image": "aisapp_menu_lv3_03",
+              "business_type": [
+                "ALL"
+              ],
+              "activity": "com.nextzy.allforone.sample.sampleapp.DialogSampleActivity",
+              "target_page": "dialog_sample"
+            },
+            {
+              "level": 4,
+              "id": "11000004",
+              "name": "Location Sample",
+              "image": "aisapp_menu_lv3_04",
+              "business_type": [
+                "ALL"
+              ],
+              "activity": "com.nextzy.allforone.sample.sampleapp.LocationSampleActivity",
+              "target_page": "location_sample"
+            },
+            {
+              "level": 4,
+              "id": "11000005",
+              "name": "Service Sample",
+              "image": "aisapp_menu_lv3_05",
+              "business_type": [
+                "ALL"
+              ],
+              "activity": "com.nextzy.allforone.sample.sampleapp.NetworkSampleActivity",
+              "target_page": "service_sample"
+            },
+            {
+              "level": 4,
+              "id": "11000006",
+              "name": "Image Downloader Sample",
+              "image": "aisapp_menu_lv3_06",
+              "business_type": [
+                "ALL"
+              ],
+              "activity": "com.nextzy.allforone.sample.sampleapp.ImageDownloaderSampleActivity",
+              "target_page": "image_downloader_sample"
+            }
+          ]
+        },
+        {
+          "level": 2,
+          "id": "0100",
+          "name": "eService",
+          "image": "aisapp_ic_menu_lv2_eservice",
+          "login_required": true,
+          "default_menu" : 0,
+          "business_type": [
+            "ALL"
+          ],
+          "menu": [
+            {
+              "level": 4,
+              "id": "010100",
+              "nameEn": "My Profile",
+              "nameTh": "ข้อมูลส่วนตัวของคุณ",
+              "image": "eservice_menu_lv3_my_profile",
+              "business_type": [
+                "ALL"
+              ],
+              "activity": "com.ais.mimo.eservice.view.MainActivity",
+              "target_page": "my_profile"
+            },
+            {
+              "level": 3,
+              "id": "010200",
+              "nameEn": "Balance & Usage Detail",
+              "nameTh": "เช็กยอดค่าโทร",
+              "image": "eservice_menu_lv3_usage_detail",
+              "business_type": [
+                "POST",
+                "POST_BOS",
+                "CORP_POST",
+                "CORP_POST_BOS",
+                "POST_2G"
+              ],
+              "menu": [
+                {
+                  "level": 4,
+                  "id": "010201",
+                  "nameEn": "Your Current Charges (Unbilled)",
+                  "nameTh": "ค่าใช้บริการระหว่างรอบบิล",
+                  "color" : "#d59738",
+                  "business_type": [
+                    "POST",
+                    "POST_BOS",
+                    "CORP_POST",
+                    "CORP_POST_BOS",
+                    "POST_2G"
+                  ],
+                  "activity": "com.ais.mimo.eservice.view.MainActivity",
+                  "target_page": "your_current_charge"
+                },
+                {
+                  "level": 4,
+                  "id": "010203",
+                  "nameEn": "Usage Detail History",
+                  "nameTh": "รายละเอียดค่าใช้บริการ",
+                  "color" : "#d59738",
+                  "business_type": [
+                    "POST",
+                    "POST_BOS",
+                    "CORP_POST",
+                    "CORP_POST_BOS",
+                    "POST_2G"
+                  ],
+                  "activity": "com.ais.mimo.eservice.view.MainActivity",
+                  "target_page": "usage_detail_history"
+                },
+                {
+                  "level": 4,
+                  "id": "010202",
+                  "nameEn": "Your Balance",
+                  "nameTh": "ค่าใช้บริการ",
+                  "color" : "#d59738",
+                  "business_type": [
+                    "POST",
+                    "POST_BOS",
+                    "POST_2G"
+                  ],
+                  "activity": "com.ais.mimo.eservice.view.MainActivity",
+                  "target_page": "your_balance"
+                }
+              ]
+            },
+            {
+              "level": 3,
+              "id": "010300",
+              "nameEn": "Package",
+              "nameTh": "แพ็กเกจ",
+              "image": "eservice_menu_lv3_package",
+              "business_type": [
+                "POST",
+                "POST_BOS",
+                "CORP_POST",
+                "CORP_POST_BOS",
+                "POST_2G"
+              ],
+              "menu": [
+                {
+                  "level": 4,
+                  "id": "010301",
+                  "nameEn": "Your Current Package",
+                  "nameTh": "แพ็กเกจปัจจุบันของคุณ",
+                  "color" : "#f98240",
+                  "business_type": [
+                    "POST",
+                    "POST_BOS",
+                    "CORP_POST",
+                    "CORP_POST_BOS",
+                    "POST_2G"
+                  ],
+                  "activity": "com.ais.mimo.eservice.view.MainActivity",
+                  "target_page": "current_package"
+                },
+                {
+                  "level": 4,
+                  "id": "010302",
+                  "nameEn": "Change Main Package",
+                  "nameTh": "เปลี่ยนแพ็กเกจหลัก",
+                  "color" : "#f98240",
+                  "business_type": [
+                    "POST",
+                    "POST_BOS",
+                    "POST_2G"
+                  ],
+                  "activity": "com.ais.mimo.eservice.view.MainActivity",
+                  "target_page": "postpaid_change_main_package"
+                },
+                {
+                  "level": 4,
+                  "id": "010303",
+                  "nameEn": "Apply On-Top Package",
+                  "nameTh": "สมัครแพ็กเสริม",
+                  "color" : "#f98240",
+                  "business_type": [
+                    "POST",
+                    "POST_BOS",
+                    "POST_2G"
+                  ],
+                  "activity": "com.ais.mimo.eservice.view.MainActivity",
+                  "target_page": "postpaid_apply_ontop_package"
+                },
+                {
+                  "level": 4,
+                  "id": "010305",
+                  "nameEn": "Apply iFAIR Package",
+                  "nameTh": "สมัครแพ็ก iFAIR",
+                  "color" : "#f98240",
+                  "business_type": [
+                    "POST"
+                  ],
+                  "activity": "com.ais.mimo.eservice.view.MainActivity",
+                  "target_page": "postpaid_apply_ifair_package"
+                },
+                {
+                  "level": 4,
+                  "id": "010306",
+                  "nameEn": "Cancel On-Top Package",
+                  "nameTh": "ยกเลิกแพ็กเสริม",
+                  "color" : "#f98240",
+                  "business_type": [
+                    "POST",
+                    "POST_BOS"
+                  ],
+                  "activity": "com.ais.mimo.eservice.view.MainActivity",
+                  "target_page": "postpaid_cancel_ontop_package"
+                }
+              ]
+            },
+            {
+              "level": 4,
+              "id": "010400",
+              "nameEn": "iSWOP Service",
+              "nameTh": "บริการ iSWOP",
+              "image": "eservice_menu_lv3_iswop",
+              "activity": "com.ais.mimo.eservice.view.MainActivity",
+              "target_page": "iswop_service",
+              "business_type": [
+                "POST_BOS",
+                "CORP_POST_BOS"
+              ]
+            },
+            {
+              "level": 3,
+              "id": "010500",
+              "nameEn": "Payment/Top up",
+              "nameTh": "ชำระค่าบริการ/เติมเงิน",
+              "image": "eservice_menu_lv3_payment_topup",
+              "business_type": [
+                "POST",
+                "POST_BOS",
+                "POST_2G"
+              ],
+              "menu": [
+                {
+                  "level": 4,
+                  "id": "010501",
+                  "nameEn": "Bill AIS Postpaid",
+                  "nameTh": "ค่าบริการบิลเอไอเอสรายเดือน",
+                  "color" : "#e597bb",
+                  "business_type": [
+                    "POST",
+                    "POST_BOS",
+                    "CORP_POST",
+                    "CORP_POST_BOS",
+                    "POST_2G"
+                  ],
+                  "activity": "com.ais.mimo.eservice.view.MainActivity",
+                  "target_page": "billing_payment"
+                },
+                {
+                  "level": 4,
+                  "id": "010502",
+                  "nameEn": "Top Up",
+                  "nameTh": "เติมเงิน",
+                  "color" : "#e597bb",
+                  "business_type": [
+                    "POST",
+                    "POST_BOS",
+                    "CORP_POST",
+                    "CORP_POST_BOS",
+                    "POST_2G"
+                  ],
+                  "activity": "com.ais.mimo.eservice.view.MainActivity",
+                  "target_page": "topup_payment"
+                }
+              ]
+            },
+            {
+              "level": 4,
+              "id": "010600",
+              "nameEn": "AIS eStatement",
+              "nameTh": "AIS eStatement",
+              "image": "eservice_menu_lv3_estatement",
+              "business_type": [
+                "ESTATEMENT"
+              ],
+              "activity": "com.ais.mimo.eservice.view.MainActivity",
+              "target_page": "estatement"
+            },
+            {
+              "level": 3,
+              "id": "011000",
+              "nameEn": "Usage Detail History",
+              "nameTh": "ข้อมูลการใช้งาน",
+              "image": "eservice_menu_lv3_usage_detail",
+              "business_type": [
+                "PRE",
+                "PRE_BOS",
+                "CORP_PRE",
+                "CORP_PRE_BOS",
+                "PRE_2G"
+              ],
+              "menu": [
+                {
+                  "level": 4,
+                  "id": "011001",
+                  "nameEn": "Voice Call",
+                  "nameTh": "การโทร",
+                  "color" : "#d59738",
+                  "business_type": [
+                    "PRE",
+                    "PRE_BOS",
+                    "CORP_PRE",
+                    "CORP_PRE_BOS",
+                    "PRE_2G"
+                  ],
+                  "activity": "com.ais.mimo.eservice.view.MainActivity",
+                  "target_page": "voice_history"
+                },
+                {
+                  "level": 4,
+                  "id": "011002",
+                  "nameEn": "Internet/SMS/MMS",
+                  "nameTh": "Internet/SMS/MMS",
+                  "color" : "#d59738",
+                  "business_type": [
+                    "PRE",
+                    "PRE_BOS",
+                    "CORP_PRE",
+                    "CORP_PRE_BOS",
+                    "PRE_2G"
+                  ],
+                  "activity": "com.ais.mimo.eservice.view.MainActivity",
+                  "target_page": "vas_history"
+                },
+                {
+                  "level": 4,
+                  "id": "011003",
+                  "nameEn": "Top Up",
+                  "nameTh": "เติมเงิน",
+                  "color" : "#d59738",
+                  "business_type": [
+                    "PRE",
+                    "PRE_BOS",
+                    "CORP_PRE",
+                    "CORP_PRE_BOS",
+                    "PRE_2G"
+                  ],
+                  "activity": "com.ais.mimo.eservice.view.MainActivity",
+                  "target_page": "topup_history"
+                },
+                {
+                  "level": 4,
+                  "id": "011004",
+                  "nameEn": "Balance & Validity Transfer",
+                  "nameTh": "โอนเงิน โอนวัน",
+                  "color" : "#d59738",
+                  "business_type": [
+                    "PRE",
+                    "PRE_BOS",
+                    "CORP_PRE",
+                    "CORP_PRE_BOS",
+                    "PRE_2G"
+                  ],
+                  "activity": "com.ais.mimo.eservice.view.MainActivity",
+                  "target_page": "transfer_history"
+                },
+                {
+                  "level": 4,
+                  "id": "011005",
+                  "nameEn": "Fee",
+                  "nameTh": "ค่าธรรมเนียม",
+                  "color" : "#d59738",
+                  "business_type": [
+                    "PRE",
+                    "PRE_BOS",
+                    "CORP_PRE",
+                    "CORP_PRE_BOS",
+                    "PRE_2G"
+                  ],
+                  "activity": "com.ais.mimo.eservice.view.MainActivity",
+                  "target_page": "fee_history"
+                }
+              ]
+            },
+            {
+              "level": 3,
+              "id": "011100",
+              "nameEn": "Promotion",
+              "nameTh": "โปรโมชั่น",
+              "image": "eservice_menu_lv3_promotion",
+              "business_type": [
+                "PRE",
+                "PRE_BOS",
+                "CORP_PRE",
+                "CORP_PRE_BOS",
+                "PRE_2G"
+              ],
+              "menu": [
+                {
+                  "level": 4,
+                  "id": "011101",
+                  "nameEn": "Current Promotion",
+                  "nameTh": "โปรโมชั่นปัจจุบันของคุณ",
+                  "color" : "#f98240",
+                  "business_type": [
+                    "PRE",
+                    "PRE_BOS",
+                    "CORP_PRE",
+                    "CORP_PRE_BOS",
+                    "PRE_2G"
+                  ],
+                  "activity": "com.ais.mimo.eservice.view.MainActivity",
+                  "target_page": "current_promotion"
+                },
+                {
+                  "level": 4,
+                  "id": "011102",
+                  "nameEn": "Change Main Package",
+                  "nameTh": "เปลี่ยนโปรโมชั่นหลัก",
+                  "color" : "#f98240",
+                  "business_type": [
+                    "PRE",
+                    "PRE_BOS",
+                    "PRE_2G"
+                  ],
+                  "activity": "com.ais.mimo.eservice.view.MainActivity",
+                  "target_page": "prepaid_change_main_package"
+                },
+                {
+                  "level": 4,
+                  "id": "011103",
+                  "nameEn": "Apply On-Top Package",
+                  "nameTh": "สมัครแพ็กเสริม",
+                  "color" : "#f98240",
+                  "business_type": [
+                    "PRE",
+                    "PRE_BOS",
+                    "PRE_2G"
+                  ],
+                  "activity": "com.ais.mimo.eservice.view.MainActivity",
+                  "target_page": "prepaid_apply_ontop_package"
+                }
+              ]
+            },
+            {
+              "level": 4,
+              "id": "011200",
+              "nameEn": "Top Up",
+              "nameTh": "เติมเงิน",
+              "image": "eservice_menu_lv3_topup",
+              "business_type": [
+                "PRE",
+                "PRE_BOS",
+                "CORP_PRE",
+                "CORP_PRE_BOS",
+                "PRE_2G"
+              ],
+              "activity": "com.ais.mimo.eservice.view.MainActivity",
+              "target_page": "prepaid_topup"
+            },
+            {
+              "level": 3,
+              "id": "011300",
+              "nameEn": "Balance & Validity Transfer",
+              "nameTh": "โอนเงิน โอนวัน",
+              "image": "eservice_menu_lv3_transfer",
+              "business_type": [
+                "PRE",
+                "PRE_BOS",
+                "PRE_2G"
+              ],
+              "menu": [
+                {
+                  "level": 4,
+                  "id": "011302",
+                  "nameEn": "Balance Transfer",
+                  "nameTh": "โอนเงิน",
+                  "color" : "#a257a2",
+                  "business_type": [
+                    "PRE",
+                    "PRE_BOS",
+                    "PRE_2G"
+                  ],
+                  "activity": "com.ais.mimo.eservice.view.MainActivity",
+                  "target_page": "balance_transfer"
+                },
+                {
+                  "level": 4,
+                  "id": "011301",
+                  "nameEn": "Validity Transfer",
+                  "nameTh": "โอนวัน",
+                  "color" : "#a257a2",
+                  "business_type": [
+                    "PRE",
+                    "PRE_BOS",
+                    "PRE_2G"
+                  ],
+                  "activity": "com.ais.mimo.eservice.view.MainActivity",
+                  "target_page": "validity_transfer"
+                }
+              ]
+            },
+            {
+              "level": 4,
+              "id": "010900",
+              "nameEn": "FAQ",
+              "nameTh": "ถาม-ตอบ",
+              "image": "eservice_menu_lv3_faq",
+              "business_type": [
+                "ALL"
+              ],
+              "activity": "com.ais.mimo.eservice.view.MainActivity",
+              "target_page": "faq"
+            },
+            {
+              "level": 4,
+              "id": "010900",
+              "nameEn": "Log Out",
+              "nameTh": "ออกจากระบบ",
+              "image": "eservice_menu_lv3_faq",
+              "business_type": [
+                "EMPTY"
+              ],
+              "activity": "com.ais.mimo.eservice.view.MainActivity",
+              "target_page": "logout"
+            }
+          ]
+        },
+        {
+          "level": 4,
+          "id": "0200",
+          "name": "Roaming",
+          "image": "aisapp_ic_menu_lv2_roaming",
+          "business_type": [
+            "ALL"
+          ],
+          "login_required": false,
+          "activity": "com.nextzy.aisroaming.activities.MainActivity",
+          "target_page": "Roaming"
+        },
+        {
+          "level": 4,
+          "id": "0400",
+          "name": "Privilege",
+          "image": "aisapp_ic_menu_lv2_privilege",
+          "business_type": [
+            "ALL"
+          ],
+          "url": "http://www.ais.co.th/live360/home.html"
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "id": "1000",
+      "nameEn": "Store",
+      "nameTh": "ร้านค้า",
+      "image": "aisapp_ic_menu_lv1_store",
+      "login_required": false,
+      "business_type": [
+        "ALL"
+      ],
+      "url": "https://digital.ais.co.th"
+    },
+    {
+      "level": 4,
+      "id": "2000",
+      "nameEn": "Site",
+      "nameTh": "เว็ปไซต์",
+      "image": "aisapp_ic_menu_lv1_site",
+      "business_type": [
+        "ALL"
+      ],
+      "url": "http://www.ais.co.th"
+    },
+    {
+      "level": 1,
+      "id": "3000",
+      "name": "Support",
+      "image": "aisapp_ic_menu_lv1_support",
+      "business_type": [
+        "ALL"
+      ],
+      "menu": [
+        {
+          "level": 4,
+          "id": "1201",
+          "nameEn": "Setting",
+          "nameTh": "การตั้งค่า",
+          "image": "aisapp_ic_menu_lv2_other3",
+          "activity": "com.nextzy.allforone.view.setting.SettingActivity",
+          "target_page": "setting",
+          "business_type": [
+            "ALL"
+          ]
+        }
+      ]
+    }
+  ]
+}

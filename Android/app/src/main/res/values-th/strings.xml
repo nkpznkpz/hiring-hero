@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AIS App</string>
+
+    <!-- Menu -->
+    <string name="aisapp_app_version">Version</string>
+    <string name="sample">Sample</string>
+    <string name="aisapp_login_failed">Login Failed, Please Try Again</string>
+
+    <string name="aisapp_menu_setting">การตั้งค่า</string>
+    <string name="aisapp_menu_about">เกี่ยวกับ AIS App</string>
+
+    <string name="aisapp_setting_choose_language">เลือกภาษา</string>
+    <string name="aisapp_setting_language_th">TH</string>
+    <string name="aisapp_setting_language_en">EN</string>
+    <string name="aisapp_setting_about_description">บริการออนไลน์รูปแบบใหม่ \n ที่ให้คุณจัดการทุกเรื่อง \n ได้ด้วยตัวคุณเองตลอด 24 ชั่วโมง</string>
+    <string name="aisapp_setting_app_version">Version</string>
+    <string name="aisapp_setting_term_condition">เงื่อนไขการใช้บริการ</string>
+
+</resources>

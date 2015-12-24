@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal|top"
+    android:orientation="vertical">
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:mrl_rippleAlpha="0.05"
+        app:mrl_rippleColor="@color/alpha_transparent"
+        app:mrl_rippleDelayClick="true"
+        app:mrl_rippleOverlay="true">
+
+        <LinearLayout
+            android:id="@+id/layout_menu_button"
+            android:layout_width="@dimen/menu_level_two_button_size"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_margin_padding_large"
+            android:layout_marginLeft="@dimen/default_margin_padding"
+            android:layout_marginRight="@dimen/default_margin_padding"
+            android:layout_marginTop="@dimen/default_margin_padding_large"
+            android:gravity="center|top"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_menu_image"
+                android:layout_width="@dimen/menu_level_two_image_size"
+                android:layout_height="@dimen/menu_level_two_image_size"
+                android:contentDescription="@string/blank" />
+
+            <com.nextzy.lib.allforone.widget.AISTextView
+                android:id="@+id/tv_menu_title"
+                style="@style/AISTextView.Brown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin_padding"
+                android:gravity="center_horizontal"
+                android:text="@string/sample" />
+
+        </LinearLayout>
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+</LinearLayout>

@@ -1,1 +1,5 @@
-JGPROGRESSHUD_OTHER_LDFLAGS = -framework "Foundation" -framework "QuartzCore" -framework "UIKit"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/JGProgressHUD" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/BlocksKit" "${PODS_ROOT}/Headers/Public/INTULocationManager" "${PODS_ROOT}/Headers/Public/JGProgressHUD" "${PODS_ROOT}/Headers/Public/MBProgressHUD" "${PODS_ROOT}/Headers/Public/ObjectiveRecord" "${PODS_ROOT}/Headers/Public/ObjectiveSugar" "${PODS_ROOT}/Headers/Public/TOWebViewController" "${PODS_ROOT}/Headers/Public/WYPopoverController"
+OTHER_LDFLAGS = -framework "Foundation" -framework "QuartzCore" -framework "UIKit"
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

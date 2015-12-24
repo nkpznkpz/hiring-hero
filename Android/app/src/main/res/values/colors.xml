@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="default_text">#555555</color>
+    <color name="default_sub_text">#999999</color>
+
+    <color name="dark_yellow">#e1b901</color>
+    <color name="yellow">#eacd48</color>
+    <color name="light_yellow">#f9e480</color>
+
+    <color name="dark_green">#038d6e</color>
+    <color name="green">#26c29f</color>
+    <color name="light_green">#48eac6</color>
+
+    <color name="dark_red">#bd2032</color>
+    <color name="red">#f32e45</color>
+    <color name="light_red">#ff6678</color>
+
+    <color name="dark_blue">#0a89a9</color>
+    <color name="blue">#25bbe0</color>
+    <color name="light_blue">#7bddf6</color>
+
+    <color name="dark_gray">#444444</color>
+    <color name="gray">#999999</color>
+    <color name="light_gray">#dddddd</color>
+    <color name="extra_light_gray">#f7f7f7</color>
+
+    <color name="ais_green_bar">#d7dc48</color>
+    <color name="ais_dark_green_bar">#cbd11e</color>
+    <color name="ais_green_bar_selected">#cbd11e</color>
+    <color name="ais_green">#8aaf00</color>
+    <color name="ais_dark_green">#7a9a02</color>
+
+    <!-- Menu Color -->
+    <color name="menu_lv1_icon_bg">@color/white</color>
+    <color name="menu_lv2_icon_bg_eservice">#6f5560</color>
+    <color name="menu_lv2_icon_bg_roaming">#74a333</color>
+    <color name="menu_lv2_icon_bg_privilege">#ef8666</color>
+    <color name="menu_lv2_icon_bg_other1">#57b69d</color>
+    <color name="menu_lv2_icon_bg_other2">#74a333</color>
+    <color name="menu_lv2_icon_bg_other3">#e58bc1</color>
+    <color name="menu_lv2_icon_bg_other4">#f4a933</color>
+    <color name="menu_lv2_icon_bg_other5">#52699e</color>
+    <color name="menu_lv2_icon_bg_other6">#d75c43</color>
+
+</resources>

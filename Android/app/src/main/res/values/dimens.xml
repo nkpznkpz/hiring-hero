@@ -1,0 +1,29 @@
+<resources>
+    <!-- Global Dimension Resources -->
+
+    <dimen name="default_ripple_size">5dp</dimen>
+
+    <!-- Menu Dimension Resources -->
+    <dimen name="menu_icon_width">50dp</dimen>
+    <dimen name="menu_icon_height">33dp</dimen>
+
+    <!-- Menu Level One Dimension Resources -->
+    <dimen name="menu_level_one_image_size">40dp</dimen>
+
+    <!-- Menu Level Two Dimension Resources -->
+    <dimen name="menu_level_two_button_size">80dp</dimen>
+    <dimen name="menu_level_two_image_size">60dp</dimen>
+
+    <!-- Splashscreen Dimension Resources -->
+    <dimen name="splash_logo_width">220dp</dimen>
+
+    <!-- Setting Dimension Resources -->
+    <dimen name="setting_button_language_border_width">2dp</dimen>
+    <dimen name="setting_button_language_width">60dp</dimen>
+    <dimen name="setting_button_language_corner_radius">5dp</dimen>
+    <dimen name="setting_about_icon_size">120dp</dimen>
+    <dimen name="setting_term_condition_icon_size">18dp</dimen>
+
+
+
+</resources>

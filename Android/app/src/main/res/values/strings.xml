@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AIS App</string>
+
+    <!-- Menu -->
+    <string name="aisapp_app_version">Version</string>
+    <string name="aisapp_login_failed">Login Failed, Please Try Again</string>
+    <string name="sample">Sample</string>
+
+    <string name="aisapp_menu_setting">Setting</string>
+    <string name="aisapp_menu_about">About AIS App</string>
+
+    <string name="aisapp_setting_choose_language">Choose Language</string>
+    <string name="aisapp_setting_language_th">TH</string>
+    <string name="aisapp_setting_language_en">EN</string>
+    <string name="aisapp_setting_about_description">A new online experience that allows you to manage all what you need to know at hands 24 Hours</string>
+    <string name="aisapp_setting_app_version">Version</string>
+    <string name="aisapp_setting_term_condition">Terms &amp; Conditions</string>
+
+</resources>
