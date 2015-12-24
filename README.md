@@ -93,4 +93,6 @@ geek@nextzy.com
 
 [Nextzy Playground](https://www.fb.com/nextzy)
 
+[Nextzy Blognone](https://www.blognone.com/node/64996)
+
 
