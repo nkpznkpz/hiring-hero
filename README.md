@@ -89,7 +89,7 @@ geek@nextzy.com
 ```
 
 ### More Detail 
-[Nextzy pirate](http://www.nextzy.me/nextzy)
+[Nextzy Pirate](http://www.nextzy.me/nextzy)
 
 [Nextzy Playground](https://www.fb.com/nextzy)
 
