@@ -1,5 +1,5 @@
 ![Nextzy img](https://raw.githubusercontent.com/nextzy/hero/master/photo/nextzy_pic6.jpg)
-# Nextzy : We Are Hiring !
+# Nextzy : We Are Hiring ! (Fulltime, Freelance, Intern)
 
 Nextzy -- Next To The Galaxy
 
